@@ -1,0 +1,28 @@
+{
+    "comments": {
+        "lineComment": "***",
+        "blockComment": [ "***", "***" ]
+    },
+    // symbols used as brackets
+    "brackets": [
+        ["[", "]"],
+        ["(", ")"]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""]
+    ],
+    // symbols that can be used to surround a selection
+    "surroundingPairs": [
+        ["[", "]"],
+        ["(", ")"],
+        ["'", "'"],
+        ["\"", "\""]
+    ],
+    "indentationRules": {
+        "increaseIndentPattern": "^((?!(\\-\\-)).)*((\\b(otherwise|method|then|if|until|loop|try|catch)\\b((?!\\b(end)\\b).)*)|(\\{\\s*))$",
+        "decreaseIndentPattern": "^\\s*((\\b(otherwise if|otherwise|end)\\b)|(\\})|(\\)))"
+    }
+}

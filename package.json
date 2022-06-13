@@ -1,0 +1,29 @@
+{
+    "name": "blue",
+    "displayName": "blue",
+    "description": "The official Visual Studio Code extension for the Blue language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "blue",
+            "aliases": ["Blue", "blue"],
+            "extensions": [".bl"],
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "light": "./BlueLangLogo.png",
+                "dark": "./BlueLangLogo.png"
+              }
+        }],
+        "grammars": [{
+            "language": "blue",
+            "scopeName": "source.blue",
+            "path": "./syntaxes/blue.tmLanguage.json"
+        }]
+    }   
+}

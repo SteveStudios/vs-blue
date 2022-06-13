@@ -1,0 +1,150 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Blue",
+	"scopeName": "source.blue",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"match": "(\\*\\*\\*).*$\\n?",
+					"name": "comment.line.blue"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.blue",
+					"match": "\\b(stop|continue|otherwise|if|end|loop|return|then|until|try|catch|throw)\\b"
+				},
+				{
+					"name": "keyword.other.blue",
+					"match": "\\b(and|not|or|in|main|constructor|method|greater|than|less|mult|div|new)\\b"
+				},
+				{
+					"name": "punctuation.definition.tag",
+					"match": "(@Override|@Static|@BuildCommand|@Package|@IncludeLib|@Extends).*$\\n?"
+				},
+				{
+					"name": "variable.language.blue",
+					"match": "\\b(superClass|this)"
+				},
+				{
+					"match": "[a-zA-Z]+\\([^\\)]*\\)(\\.[^\\)]*\\))?",
+					"name": "entity.name.function.blue"
+				},
+				{
+					"match": "\\b(_*[A-Z]\\w*)\\b",
+					"name": "entity.name.type.class.blue"
+				},
+				{
+					"match": "\\b([_A-Za-z]\\w*)\\b",
+					"name": "variable.other.blue"
+				},
+				{
+					"match": "(?x)\n(?<!\\$)(?:\n  (?:\\b[0-9]+(\\.)[0-9]+[eE][+-]?[0-9]+\\b)| # 1.1E+3\n  (?:\\b[0-9]+(\\.)[eE][+-]?[0-9]+\\b)|       # 1.E+3\n  (?:\\B(\\.)[0-9]+[eE][+-]?[0-9]+\\b)|       # .1E+3\n  (?:\\b[0-9]+[eE][+-]?[0-9]+\\b)|           # 1E+3\n  (?:\\b[0-9]+(\\.)[0-9]+\\b)|                # 1.1\n  (?:\\b[0-9]+(\\.)(?!\\.)\\B)|                # 1.\n  (?:\\B(\\.)[0-9]+\\b)|                      # .1\n  (?:\\b[0-9]+\\b)                           # 1\n)(?!\\$)",
+					"captures": {
+						"0": {
+							"name": "constant.numeric.decimal.blue"
+						},
+						"1": {
+							"name": "meta.delimiter.decimal.period.blue"
+						},
+						"2": {
+							"name": "meta.delimiter.decimal.period.blue"
+						},
+						"3": {
+							"name": "meta.delimiter.decimal.period.blue"
+						},
+						"4": {
+							"name": "meta.delimiter.decimal.period.blue"
+						},
+						"5": {
+							"name": "meta.delimiter.decimal.period.blue"
+						},
+						"6": {
+							"name": "meta.delimiter.decimal.period.blue"
+						}
+					}
+				}
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.single.blue",
+					"begin": "'",
+					"end": "'",
+					"patterns": [
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\\\"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\n"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\t"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\r"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\\""
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\'"
+						}
+					]
+				},
+				{
+					"name": "string.quoted.double.blue",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\\\"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\n"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\t"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\r"
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\\""
+						},
+						{
+							"name": "constant.character.escape.blue",
+							"match": "\\'"
+						}
+					]
+				}
+			]
+		}
+	}
+}
