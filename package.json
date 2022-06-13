@@ -1,6 +1,6 @@
 {
-    "name": "blue",
-    "displayName": "blue",
+    "name": "vs-blue",
+    "displayName": "Blue",
     "description": "The official Visual Studio Code extension for the Blue language",
     "version": "0.0.1",
     "engines": {
@@ -25,6 +25,6 @@
             "scopeName": "source.blue",
             "path": "./syntaxes/blue.tmLanguage.json"
         }]
-    },   
-    "publisher": "Blue"
+    },
+    "publisher": "Blue"   
 }
