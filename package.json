@@ -9,22 +9,34 @@
     "categories": [
         "Programming Languages"
     ],
-    "contributes": {
-        "languages": [{
-            "id": "blue",
-            "aliases": ["Blue", "blue"],
-            "extensions": [".bl"],
-            "configuration": "./language-configuration.json",
-            "icon": {
-                "light": "./BlueLangLogo.png",
-                "dark": "./BlueLangLogo.png"
-              }
-        }],
-        "grammars": [{
-            "language": "blue",
-            "scopeName": "source.blue",
-            "path": "./syntaxes/blue.tmLanguage.json"
-        }]
+    "repository": {
+        "icon": "./BlueLangLogo.png"
     },
-    "publisher": "Blue"   
+    "contributes": {
+        "languages": [
+            {
+                "id": "blue",
+                "aliases": [
+                    "Blue",
+                    "blue"
+                ],
+                "extensions": [
+                    ".bl"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./BlueLangLogo.png",
+                    "dark": "./BlueLangLogo.png"
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "blue",
+                "scopeName": "source.blue",
+                "path": "./syntaxes/blue.tmLanguage.json"
+            }
+        ]
+    },
+    "publisher": "Blue"
 }
