@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "keyword.other.blue",
-					"match": "\\b(and|not|or|in|main|constructor|method|greater|than|less|mult|div|new)\\b"
+					"match": "\\b(and|not|or|in|main|constructor|method|greater|than|less|mult|div|new|null|false|true)\\b"
 				},
 				{
 					"name": "punctuation.definition.tag",
