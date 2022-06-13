@@ -25,5 +25,6 @@
             "scopeName": "source.blue",
             "path": "./syntaxes/blue.tmLanguage.json"
         }]
-    }   
+    },   
+    "publisher": "BlueLanguage"
 }
