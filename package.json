@@ -9,9 +9,7 @@
     "categories": [
         "Programming Languages"
     ],
-    "repository": {
-        "icon": "./BlueLangLogo.png"
-    },
+    "icon": "./BlueLangLogo.png",
     "contributes": {
         "languages": [
             {
