@@ -41,7 +41,7 @@
 					"match": "\\b(superClass|this)"
 				},
 				{
-					"match": "[a-zA-Z]+\\([^\\)]*\\)(\\.[^\\)]*\\))?",
+					"match": "[a-zA-Z]+\\(",
 					"name": "entity.name.function.blue"
 				},
 				{
