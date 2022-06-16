@@ -41,12 +41,12 @@
 					"match": "\\b(superClass|this)"
 				},
 				{
-					"match": "[a-zA-Z]+\\(",
-					"name": "entity.name.function.blue"
-				},
-				{
 					"match": "\\b(_*[A-Z]\\w*)\\b",
 					"name": "entity.name.type.class.blue"
+				},
+				{
+					"match": "[a-zA-Z]+\\(",
+					"name": "entity.name.function.blue"
 				},
 				{
 					"match": "\\b([_A-Za-z]\\w*)\\b",
