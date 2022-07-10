@@ -25,6 +25,10 @@
 		"keywords": {
 			"patterns": [
 				{
+					"name": "punctuation.definition.tag",
+					"match": "(<<haxe>>|<<cpp>>|<<c>>|<<cs>>|<<coffeescript>>|<<go>>|<<groovy>>|<<js>>|<<julia>>|<<lua>>|<<end>>).*$\\n?"
+				},
+				{
 					"match": "\\b(0(x|X)[0-9a-fA-F]*)\\b",
 					"name": "constant.numeric.hex.hx"
 				},
@@ -34,7 +38,7 @@
 				},
 				{
 					"name": "keyword.other.blue",
-					"match": "\\b(and|not|or|in|main|constructor|method|greater|than|less|mult|div|new|null|false|true)\\b"
+					"match": "\\b(and|not|or|in|main|constructor|method|greater|than|less|mult|div|new|null|false|true|outof)\\b"
 				},
 				{
 					"name": "punctuation.definition.tag",
