@@ -26,11 +26,7 @@
 			"patterns": [
 				{
 					"name": "punctuation.definition.tag",
-					"match": "(<<[_A-Za-z]).*$\\n?"
-				},
-				{
-					"name": "punctuation.definition.tag",
-					"match": "(<<\\s[_A-Za-z]).*$\\n?"
+					"match": "(<<[\\s\\S_A-Za-z\\s\\S*]*>>).*$\\n?"
 				},
 				{
 					"match": "\\b(0(x|X)[0-9a-fA-F]*)\\b",

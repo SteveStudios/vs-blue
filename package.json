@@ -2,8 +2,8 @@
     "name": "vs-blue",
     "displayName": "Blue",
     "description": "The official Visual Studio Code extension for the Blue language",
-    "version": "0.1.1",
-    "repository": "https://github.com/Magnumsrt/vs-blue",
+    "version": "0.1.2",
+    "repository": "https://github.com/BlueTechnologies/Blue-Public",
     "engines": {
         "vscode": "^1.67.0"
     },
