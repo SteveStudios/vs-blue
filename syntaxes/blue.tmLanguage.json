@@ -26,7 +26,11 @@
 			"patterns": [
 				{
 					"name": "punctuation.definition.tag",
-					"match": "(<<haxe>>|<<cpp>>|<<c>>|<<cs>>|<<coffeescript>>|<<go>>|<<groovy>>|<<js>>|<<end>>|<<!haxe>>|<<!cpp>>|<<!c>>|<<!cs>>|<<!coffeescript>>|<<!go>>|<<!groovy>>|<<!js>>).*$\\n?"
+					"match": "(<<[_A-Za-z]).*$\\n?"
+				},
+				{
+					"name": "punctuation.definition.tag",
+					"match": "(<<\\s[_A-Za-z]).*$\\n?"
 				},
 				{
 					"match": "\\b(0(x|X)[0-9a-fA-F]*)\\b",
