@@ -42,7 +42,7 @@
 				},
 				{
 					"name": "punctuation.definition.tag",
-					"match": "(@Override|@Static|@Package|@IncludeLib|@Extends).*$\\n?"
+					"match": "(@Override|@Static|@Package|@Extends|@Target).*$\\n?"
 				},
 				{
 					"name": "variable.language.blue",
