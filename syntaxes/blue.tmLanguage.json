@@ -34,19 +34,15 @@
 				},
 				{
 					"name": "keyword.control.blue",
-					"match": "\\b(stop|continue|otherwise|if|end|loop|return|then|until|try|catch|throw)\\b"
+					"match": "\\b(stop|continue|else|if|end|loop|return|then|until|try|catch|throw)\\b"
 				},
 				{
 					"name": "keyword.other.blue",
-					"match": "\\b(and|not|or|in|main|constructor|method|greater|than|less|mult|div|new|null|false|true|outof)\\b"
+					"match": "\\b(and|not|or|in|main|constructor|method|mult|div|new|null|false|true|outof)\\b"
 				},
 				{
 					"name": "punctuation.definition.tag",
 					"match": "(@Override|@Static|@Package|@Extends|@Target).*$\\n?"
-				},
-				{
-					"name": "variable.language.blue",
-					"match": "\\b(superClass|this)"
 				},
 				{
 					"match": "\\b(_*[A-Z]\\w*)\\b",
