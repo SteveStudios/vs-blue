@@ -34,11 +34,11 @@
 				},
 				{
 					"name": "keyword.control.blue",
-					"match": "\\b(stop|continue|else|if|end|loop|return|then|until|try|catch|throw|super)\\b"
+					"match": "\\b(stop|continue|else|if|end|loop|return|then|until|try|catch|throw)\\b"
 				},
 				{
 					"name": "keyword.other.blue",
-					"match": "\\b(and|not|or|in|main|constructor|method|mult|div|new|null|false|true|outof)\\b"
+					"match": "\\b(and|not|or|in|main|constructor|method|mult|div|new|null|false|true|outof|super)\\b"
 				},
 				{
 					"name": "punctuation.definition.tag",
