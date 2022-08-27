@@ -22,7 +22,7 @@
         ["\"", "\""]
     ],
     "indentationRules": {
-        "increaseIndentPattern": "^((?!(\\-\\-)).)*((\\b(otherwise|method|then|if|until|loop|try|catch)\\b((?!\\b(end)\\b).)*)|(\\{\\s*))$",
+        "increaseIndentPattern": "^((?!(\\-\\-)).)*((\\b(else|method|then|if|until|loop|try|catch)\\b((?!\\b(end)\\b).)*)|(\\{\\s*))$",
         "decreaseIndentPattern": "^\\s*((\\b(end)\\b)|(\\})|(\\)))"
     }
 }
