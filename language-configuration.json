@@ -23,6 +23,6 @@
     ],
     "indentationRules": {
         "increaseIndentPattern": "^((?!(\\-\\-)).)*((\\b(else|method|then|if|until|loop|try|catch)\\b((?!\\b(end)\\b).)*)|(\\{\\s*))$",
-        "decreaseIndentPattern": "^\\s*((\\b(end)\\b)|(\\})|(\\)))"
+        "decreaseIndentPattern": "^\\s*((\\b(end|else|catch)\\b)|(\\})|(\\)))"
     }
 }
