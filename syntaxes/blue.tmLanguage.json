@@ -34,7 +34,7 @@
 				},
 				{
 					"name": "keyword.control.blue",
-					"match": "\\b(else|if|end|loop|return|then|until)\\b"
+					"match": "\\b(else|if|end|loop|return|then|until|open|close|break|continue)\\b"
 				},
 				{
 					"name": "keyword.other.blue",
