@@ -49,6 +49,10 @@
 					"name": "entity.name.function.blue"
 				},
 				{
+					"match": "[a-zA-Z]+\\!\\(",
+					"name": "variable.other.constant.blue"
+				},
+				{
 					"match": "\\b([_A-Za-z]\\w*)\\b",
 					"name": "variable.other.blue"
 				},
